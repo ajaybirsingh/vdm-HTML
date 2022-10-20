@@ -1,0 +1,1444 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-section-project-page {
+    width: 100%;
+    display: block;
+    float: left;
+    overflow-x: hidden;
+}
+
+.project-col-container {
+    background-color: #F4F0EB;
+}
+
+.sidebar-section {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 100vh;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.logo-section {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+    float: left;
+}
+
+.logo-section img {
+    width: 144px;
+    display: block;
+}
+
+.sidebar-options {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+}
+
+.sidebar-links {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar-options a:hover { 
+    color: #009FE3 !important;
+}
+
+.active {
+    color: #009FE3;
+}
+
+.option-section svg {
+    font-size: 18px;
+}
+
+.option-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.heading-options {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-bottom: 0px;
+}
+
+.project-page-data {
+    width: 100%;
+    display: block;
+    float: right;
+    padding: 20px;
+}
+
+.search-section-project-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-section-project-data h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.input-search {
+    width: 320px !important;
+    height: 50px;
+    border-radius: 12px !important;
+    border: none !important;
+}
+
+.input-search:focus {
+    box-shadow: none !important;
+}
+
+.tabler-section {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.table-header-section {
+    background-color: #C0B09F;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-main-section {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.heading-section {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.headings-part {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.collapse-data-table {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.data-heading-section {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.data-section-table {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.accordion-header-project {
+    border: none !important;
+}
+
+.accordion-body-project {
+    --bs-accordion-bg: transparent !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-active-bg: none !important;
+}
+
+.accordion-header-project .accordion-header .accordion-button {
+    padding: 12px !important;
+    font-size: 20px !important;
+}
+
+.accordion-header-project .accordion-header .accordion-button::after {
+    position: absolute !important;
+    left: 26px !important;
+    top: 15px !important;
+    background-image: url("../images/right-arrow.png") !important;
+}
+
+.accordion-header-project .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/arrow-down.png") !important;
+    transform: none !important;
+}
+
+.accordion-data-container {
+    padding: 5px 15px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.table-container thead tr {
+    border-bottom: 2px solid #C8C8C8;
+}
+
+.table-container tbody tr {
+    border-bottom: 2px solid #C8C8C8;
+}
+
+.table-container thead tr th {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.table-container tbody tr td {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.accordion-table-container {
+    width: 100%;
+
+}
+
+.table-right-data {
+    padding-right: 60px !important;
+}
+
+.table-left-data {
+    padding-left: 60px !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* project details */
+
+.project-details-arrow {
+    height: 25px;
+    width: 25px;
+}
+
+.project-details-container {
+    background-color: #F4F0EB;
+    height: 100%;
+}
+
+.image-section-details {
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.informatie-details {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #C0B09F;
+    padding: 0px 30px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 70px;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+
+.details-upper-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px 15px;
+
+}
+
+.table-details-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: auto;
+}
+
+.table-details-container-two {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 320px;
+}
+
+.details-inner-section {
+    padding: 0px 12px;
+
+}
+
+.table-data-left tbody,
+.table-data-left tbody tr {
+    border-style: hidden !important;
+}
+
+.table-data-left tbody tr th {
+    width: 180px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.table-data-left tbody tr td {
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.table-data-details-leftside tbody tr th {
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+.table-data-details-leftside tbody tr td {
+    padding-bottom: 0px;
+    padding-top: 4px;
+}
+
+.table-details-rightside tbody tr td {
+    padding-bottom: 13px;
+}
+
+.table-details-rightside tbody tr th {
+    padding-bottom: 13px;
+}
+
+.floppy-disk-icon {
+    font-size: 27px;
+}
+
+.notitie-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus-icon {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.bottom-table-details {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.table-data-bottom tbody,
+.table-data-bottom tbody tr {
+    border-style: hidden !important;
+}
+
+.table-data-bottom tbody tr td {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.table-data-bottom tbody tr th {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.table-data-bottom tbody tr td a {
+    text-decoration: none;
+}
+
+.table-data-bottom tbody tr td span {
+    background: #009FE3;
+    border-radius: 12px;
+    padding: 4px 13px;
+    color: #fff;
+}
+
+.table-data-child {
+    width: 300px;
+    padding-left: 30px !important;
+    text-align: left !important;
+}
+
+.bottom-table-row td {
+    font-weight: 400 !important;
+}
+
+.project-details-plus-link {
+    color: #fff;
+}
+
+.project-details-plus-link:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* sales invoice */
+.sales-main-container {
+    display: block;
+    float: left;
+    background-color: #E5E5E5;
+    width: 100%;
+    position: relative;
+}
+
+.icon-sales-xmark {
+    font-size: 45px;
+    position: absolute;
+    right: 30px;
+}
+
+.outer-container-sales {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.inner-container-sales {
+    width: 750px;
+    background-color: #fff;
+    border: 4px solid #f6f6f6;
+    padding: 0px 45px
+}
+
+.header-sales-invoice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.heading-sales {
+    font-size: 60px;
+    font-weight: 600;
+    color: #1247b8;
+}
+
+.heading-image {
+    height: 150px;
+    width: 180px;
+}
+
+.sales-second-section {
+    padding: 15px 0px;
+    display: flex;
+    width: 400px;
+}
+
+.van-sales {
+    padding-right: 110px;
+    font-weight: 700;
+}
+
+.van-sales-data span {
+    font-weight: 500;
+}
+
+.van-sales-data p {
+    color: #5e5656e6;
+}
+
+.naar-sales {
+    padding-right: 100px;
+    font-weight: 700;
+}
+
+.sales-third-section {
+    padding: 0px 0px;
+    display: flex;
+    width: 400px;
+}
+
+.sales-fourth-section,
+.sales-fifth-section,
+.sales-sixth-section {
+    padding: 15px 0px;
+}
+
+.sales-fourth-section .table tbody,
+.sales-fourth-section .table tbody tr {
+    border-style: hidden !important;
+}
+
+.sales-fourth-section .table tbody tr td {
+    padding: 0px;
+    color: #5e5656e6;
+}
+
+.sales-fourth-section .table tbody tr th {
+    padding: 0px;
+}
+
+.fourth-color {
+    font-weight: 700;
+}
+
+.sales-fifth-section span {
+    font-weight: 700;
+}
+
+.fifth-sales p {
+    color: #5e5656e6;
+}
+
+.sales-sixth-section {
+    padding-bottom: 0px;
+}
+
+.sales-sixth-section .table thead tr {
+    background-color: #1247b8;
+    color: white;
+}
+
+.sales-sixth-section .table thead tr th {
+    padding: 15px 8px;
+}
+
+.sales-sixth-section .table tbody tr td {
+    padding: 15px 8px;
+    color: #5e5656e6;
+}
+
+.sales-seventh-section {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.seventh-left {
+    padding-right: 27px;
+    font-weight: 700;
+}
+
+.seventh-right {
+    padding-right: 18px;
+    font-weight: 700;
+}
+
+.seventh-color {
+    color: #1247b8;
+}
+
+.line-separator-sales {
+    border-top: 2px solid #8080804f;
+    padding: 8px 0px;
+    margin-top: 7rem;
+}
+
+.sales-eighth-section {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.sales-eighth-section div span {
+    font-weight: 700;
+}
+
+.sales-eighth-section div p {
+    color: #5e5656e6;
+}
+
+.sales-eighth-section .eighth-split-section div div {
+    color: #5e5656e6;
+}
+
+.sales-foot {
+    padding-left: 15px;
+}
+
+.sales-last-section {
+    background-color: #1247b8;
+    height: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Attachment */
+
+.attachment-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    align-items: center;
+    height: 100vh;
+}
+
+.attachment-inner-container {
+    width: 708px;
+    height: 585px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.row-container {
+    display: flex;
+    height: 55px;
+    border-bottom: 2px solid #e2dddd;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+}
+
+.row-container div {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.attachment-icon-plus {
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.plus-icon-attach {
+    font-size: 42px;
+    position: absolute;
+    font-weight: 400;
+    top: -22px;
+    left: 9px;
+}
+
+.xmark-icon-attachment {
+    position: relative;
+    text-align: end;
+
+}
+
+.xmark-icon {
+    position: absolute;
+    font-size: 26px;
+    right: 0px;
+}
+
+.row-container-second {
+    display: flex;
+    height: 55px;
+    border-bottom: 2px solid #e2dddd;
+    padding: 0px 35px;
+    align-items: center;
+}
+
+.row-container-second div {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.row-container-third {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 2px solid #e2dddd;
+    padding: 0px 35px;
+    align-items: center;
+}
+
+.row-container-third div {
+    font-size: 17px;
+    font-weight: 400;
+    color: #969696;
+}
+
+.delete-icon-attachment {
+    position: relative;
+    text-align: end;
+}
+
+.delete-icon {
+    position: absolute;
+    font-size: 23px;
+    right: 0px;
+    top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* send invoice */
+
+.sendinvoice-outer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.sendinvoice-inner-container {
+    width: 1146px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.row-container-sendinvoice {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    border-bottom: 2px solid #e2dddd;
+    padding: 0px 35px;
+    align-items: center;
+}
+
+.row-container-sendinvoice div {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cross-icon {
+
+    width: 22px;
+    height: 22px
+}
+
+.sendinvoice-form {
+    display: flex;
+    padding: 30px 50px;
+}
+
+.sendinvoice-table div {
+    padding-bottom: 15px;
+}
+
+.sendinvoice-table div label,
+.sendinvoice-table-right div label {
+    width: 138px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sendinvoice-table div input,
+.sendinvoice-table div select {
+    width: 320px;
+    height: 40px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    padding: 0px 13px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sendinvoice-table div select {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.boek-sendinvoice {
+    width: 142px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.checkbox-boek-sendinvoice {
+    width: 25px !important;
+    height: 25px !important;
+    border: 1px solid #969696;
+    border-radius: 10px;
+}
+
+.sendinvoice-table-right {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.sendinvoice-table-right textarea {
+    width: 350px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #969696;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 13px;
+}
+
+.sendinvoice-table-right div {
+    width: 80px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* create deadline */
+
+.deadline-outer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.deadline-inner-container {
+    width: 579px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.row-container-deadline {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    border-bottom: 2px solid #e2dddd;
+    align-items: center;
+    padding: 0px 35px;
+}
+
+.row-container-deadline div {
+    font-weight: 700;
+}
+
+.deadline-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.deadline-table div {
+    padding-bottom: 20px;
+}
+
+.deadline-table div label {
+    width: 138px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.deadline-table div input,
+.deadline-table div select {
+    width: 320px;
+    height: 40px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    padding: 0px 13px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.checkbox-deadline {
+    width: 25px !important;
+}
+
+.deadline-table div select {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .sidebar-section {
+        height: 100%;
+    }
+
+    .logo-section img {
+        width: 110px;
+    }
+
+    .option-section {
+        margin-bottom: 15px;
+    }
+
+    .heading-options {
+        font-size: 18px;
+    }
+
+    .search-section-project-data {
+        flex-direction: column;
+    }
+
+    .search-section-project-data h1 {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .input-search {
+        width: 100% !important;
+    }
+
+    .main-section-table-part {
+        overflow: auto;
+    }
+
+    .table-main-section {
+        width: 1000px;
+    }
+
+    .table-container thead tr th {
+        padding-top: 0px;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .table-container tbody tr td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .table-left-data {
+        padding-left: 0px !important;
+    }
+
+    .attachment-container {
+        padding: 20px;
+    }
+
+    .deadline-outer-container {
+        padding: 20px;
+    }
+
+    .deadline-table {
+        padding: 30px 25px;
+    }
+
+    .deadline-table div {
+        padding-bottom: 10px;
+    }
+
+    .deadline-table div label {
+        width: 90px;
+    }
+
+    .deadline-table div input,
+    .deadline-table div select {
+        width: 100%;
+        height: 32px;
+    }
+
+	  .row-container-deadline {
+        padding: 0px 15px;
+        height: 45px;
+    }						 
+    /* sales invoice page */
+    .inner-container-sales {
+        width: 100%;
+    }
+
+    .heading-sales {
+        font-size: 40px;
+    }
+
+    .outer-container-sales {
+        width: 100%;
+        display: block;
+        float: left;
+    }
+ .sendinvoice-outer-container {
+        height: 100vh;
+        padding: 0px 15px;
+    }
+
+    .sendinvoice-inner-container {
+        width: 100%;
+    }
+
+    .row-container-sendinvoice {
+        padding: 0px 15px;
+    }
+
+    .sendinvoice-table div {
+							 
+							   
+		
+							
+        padding-bottom: 5px;
+    }
+
+    .sendinvoice-form {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .sendinvoice-table div input,
+    .sendinvoice-table div select {
+        width: 100%;
+        height: 32px;
+    }
+
+    .sendinvoice-table-right {
+        display: block;
+        padding-bottom: 5px;
+        width: 100%;
+        float: left;
+    }
+
+    .sendinvoice-table-right textarea {
+        width: 100%;
+        height: 90px;
+    }
+
+    .checkbox-boek-sendinvoice {
+        width: 22px !important;
+    }
+    .data-heading-section {
+        font-size: 16px;
+    }
+
+    .heading-section {
+        font-size: 16px;
+    }
+
+    .project-page-data {
+        height: 100%;
+    }
+
+    /* invoice page */
+    /* .header-sales-invoice{
+        flex-direction: column;
+    } */
+    .inner-container-sales {
+        padding: 0px 10px;
+    }
+
+    .heading-image {
+        height: auto;
+        width: 140px;
+    }
+
+    .sales-third-section {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .naar-sales {
+        padding-right: 0px;
+    }
+
+    .sales-second-section {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .van-sales {
+        padding-right: 0px;
+    }
+
+    .sales-fourth-section {
+        overflow: auto;
+
+    }
+
+    .set-wdth-mob {
+        width: 1250px !important;
+    }
+	.add-overflow-uto{
+		overflow:auto;
+	}
+	.add-d-flex{
+		display:flex;
+	
+
+    .sales-sixth-section {
+        overflow: auto;
+    }
+
+    .sales-eighth-section {
+        flex-direction: column;
+    }
+
+    .line-separator-sales {
+        margin-top: 1rem;
+    }
+}
+/* project details */
+    .project-details-container {
+        width: 100%;
+        height: 100%;
+        display: block;
+        float: left;
+    }
+
+    .details-upper-container {
+        display: block;
+        float: left;
+        padding: 25px 10px;
+        width: 100%;
+    }
+
+    .details-inner-section {
+        padding: 0px;
+
+    }
+
+    .set-wdth-mob {
+        width: 1120px;
+							   
+		
+							
+						  
+    }
+
+    .add-ovflw-auto {
+        overflow: auto;
+					 
+    }
+
+    .table-data-left tbody tr td {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .table-data-left tbody tr th {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .table-details-container {
+        display: block;
+        float: left;
+        width: 100%;
+									   
+    }
+
+    .table-details-rightside tbody tr th,
+    .table-details-rightside tbody tr td {
+        padding-bottom: 4px;
+    }
+
+						   
+					   
+
+    .table-data-left {
+        margin-bottom: 0px !important;
+    }
+
+    .informatie-details {
+        padding: 0px 15px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .plus-icon {
+        font-size: 20px;
+    }
+
+    .table-details-container {
+        margin-bottom: 20px;
+    }
+
+    .bottom-table-details {
+        overflow-x: scroll;
+    }
+ 
+
+    .table-data-bottom tbody tr td {
+        font-size: 14px;
+					 
+    }
+
+    .table-data-child {
+        width: auto;
+    }
+
+    .inner-sect-detail-main {
+        overflow: auto;
+						 
+    }
+
+    .table-inner-detail {
+        width: 100%;
+        display: block;
+    }
+	.deadline-inner-container{
+		width:100%;
+	}
+	
+	
+	
+	
+	
+	.sales-sixth-section{
+		overflow: auto;
+	}
+	.sales-eighth-section{
+		flex-direction: column
+	}
+	.sales-eighth-section .table{
+		width:770px;
+	}
+	.sales-fourth-section .table{
+		width:770px;
+	}
+		
+}
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .sidebar-section {
+        height: 100%;
+    }
+	.pr-0-mob-tab{
+		    width: 100% !important;
+    display: block;
+    float: left;
+	}
+	.project-col-container{
+		width:100% !important;
+	}
+
+
+    .logo-section img {
+        width: 174px;
+    }
+
+    .sidebar-options {
+        display: flex; 
+        margin-top: 25px;
+    }
+
+    .option-section {
+        margin-left: 20px;
+    }
+
+    .heading-options {
+        font-size: 22px;
+    }
+
+    .search-section-project-data {
+        flex-direction: column;
+    }
+
+    .search-section-project-data h1 {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .input-search {
+        width: 100% !important;
+    }
+
+    .main-section-table-part {
+        overflow: auto;
+    }
+
+    .table-main-section {
+        width: 1000px;
+    }
+
+    .change-in-tab {
+        max-width: 100% !important;
+    }
+
+    .project-page-data {
+        height: 100%;
+    }
+
+    .inner-container-sales {
+        padding: 0px 25px;
+    }
+	.sendinvoice-outer-container {
+        padding: 0px 25px;
+    }
+
+    .sendinvoice-inner-container {
+        width: 100%;
+    }
+
+    .sendinvoice-table div input,
+    .sendinvoice-table div select {
+        width: 100%;
+    }
+
+    .sendinvoice-table-right textarea {
+        width: 100%;
+    }
+
+    .sendinvoice-table-right {
+        display: block;
+        width: 100%;
+        float: left;
+        padding: 0px 25px;
+    }
+
+    .sendinvoice-form {
+        padding: 20px 0px;
+    }
+
+    .sendinvoice-table {
+        padding: 0px 25px
+								
+							
+    }
+
+    .project-details-container {
+        height: 100%;
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .details-upper-container {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .inner-sect-detail-main {
+        width: 100% !important;
+    }
+
+    .details-inner-section {
+        width: 100% !important;
+    }
+
+    .table-details-container {
+        margin-bottom: 3rem;
+
+    }
+
+    .table-data-child {
+        width: auto;
+    }
+ 
+
+    .bottom-table-details {
+        overflow: auto;
+					 
+    }
+
+    .bottom-table-details div {
+        width: 1370px;
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width:1024px) {
+    .logo-section img {
+        width: 120px;
+    }
+
+    .pr-0-mob-tab {
+        padding-right: 0 !important;
+    }
+
+    .sidebar-options {
+        padding: 10px 10px;
+    }
+
+    .accordion-header-project .accordion-header .accordion-button::after {
+        left: 8px !important;
+    }
+
+    .table-left-data {
+        padding-left: 30px !important;
+    }
+
+    .table-container thead tr th {
+        padding: 10px 0px;
+    }
+
+    .table-container tbody tr td {
+        padding: 10px 14px;
+    }
+	
+	 .details-upper-container {
+        padding: 25px 5px;
+    }
+    .add-ovflw-auto{
+        overflow: auto;
+        width: 100%;
+        display: block;
+    }
+    .set-wdth-mob{
+					  
+        width: 1250px !important;
+    }
+
+    .table-data-child{
+        width: auto;
+    }
+
+    .table-details-container{
+        width: 100%;
+        float: left;
+		display:block;
+    }
+	.add-overflow-uto{
+		overflow: auto;
+		width:100%;
+		display:block;
+	}
+	.set-wdth-mob{
+		width:1400px;
+	}
+	
+}
